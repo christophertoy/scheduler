@@ -15,6 +15,7 @@ const Form = (props) => {
     reset();
     props.onCancel();
   }
+
   return (
 <main className="appointment__card appointment__card--create">
   <section className="appointment__card-left">
@@ -35,10 +36,11 @@ const Form = (props) => {
 
       />
     </form>
-    <InterviewerList interviewers={props.interviewers} 
-    // value={interviewer} onChange={setInterviewer}
-    interviewer={interviewer}
-    setInterviewer={setInterviewer}
+    <InterviewerList 
+    interviewers={props.interviewers} 
+    value={interviewer} onChange={setInterviewer}
+    // interviewer={interviewer}
+    // setInterviewer={setInterviewer}
     />
   </section>
   <section className="appointment__card-right">
