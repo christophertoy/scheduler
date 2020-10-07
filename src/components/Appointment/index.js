@@ -63,7 +63,7 @@ const Appointment = (props) => {
   );
 
   return (
-    <article className="appointment">
+    <article data-testid="appointment" className="appointment">
       <Header time={props.time} />
 
       {/* {props.interview ? 
@@ -76,7 +76,6 @@ const Appointment = (props) => {
         <Show
           student={props.interview.student}
           interviewer={props.interview.interviewer}
-          // .name?
           onDelete={confirmDelete}
           onEdit={editInterview}
         />

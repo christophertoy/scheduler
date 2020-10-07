@@ -65,14 +65,14 @@ const useApplicationData = () => {
     for (const index in days) {
       // set day to current index of days
       const day = days[index];
-
       // loop through appointments
+      
       for (const apptID of day.appointments)
       // check to see if id matches
-       if (apptID === id) {
+       if (apptID === id && state.appointments[id].interview === null) {
         // update day, and update spots - 1
          days[index] = {...day, spots: day.spots - 1}
-       }
+       } 
 
     }
 
