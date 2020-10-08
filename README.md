@@ -28,8 +28,8 @@ npm run storybook
 
 ## Screenshots
 
-!["Appointment List"] (https://github.com/christophertoy/scheduler/blob/master/docs/Appointment%20List.png?raw=true)
+!['Appointment List'](https://github.com/christophertoy/scheduler/blob/master/docs/Appointment%20List.png?raw=true)
 
-!["Adding a new interview"] (https://github.com/christophertoy/scheduler/blob/master/docs/Add%20Interview.png?raw=true)
+!['Adding a new interview'](https://github.com/christophertoy/scheduler/blob/master/docs/Add%20Interview.png?raw=true)
 
-!["Cancelling an interivew"] (https://github.com/christophertoy/scheduler/blob/master/docs/Cancel%20Interview.png?raw=true)
+!['Cancelling an interivew'](https://github.com/christophertoy/scheduler/blob/master/docs/Cancel%20Interview.png?raw=true)
